@@ -31,15 +31,11 @@ export class ProductComponent implements OnInit {
     this.marketService.getProduct(id)
       .subscribe({ next: (v) => {
 
-        console.log(v);
-
         if ( sede ) { this.wsnumber = v.producto.negocio.sedes[sede].wsnumber }
-        else {  this.wsnumber = v.producto.negocio.sedes[1].wsnumber }
+        else {  this.wsnumber = v.producto.negocio.sedes[0].wsnumber }
 
         this.marketService.producto = v.producto;
         this.logo = v.producto.negocio.logo;
-
-        console.log(this.wsnumber);
 
       }})
   }

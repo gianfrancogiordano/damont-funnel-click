@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  base_url: 'http://localhost:8000/api/v1',
+  base_url: 'https://api.soyclickstore.com/api/v1',
   wsUrl: 'http://localhost:8000',
   cloudFront: 'https://d3cj1y2eynyat2.cloudfront.net',
-  clickstoreId: '65148d449f932e07bf93e0b0',
-  clicstoreDomain: 'https://shop.alpelocol.com',
-  pixel: '1411759042749299',
-  apiFB: 'EAAJVxS9CCwMBO3Q6JX9ZAK6oG1mRuogimAon23JJf9TEnBybhrHt0whHKaUQq59T2GDxx27yut7n32zMy3Ao2XK2dLmNZC1j8PaSbbLobV9auIYaRsKssaqZCOamx673pRDud82mYq8ZChwoZBZCjUIGQBG4EoW6JzmMdEOkayV9TshqSc32Fuw46j0WRCfn0oUAZDZD'
+  clickstoreId: '65b9387e5dab97054fa79f7c',
+  clicstoreDomain: 'https://damontcalzado.getcs.link/',
+  pixel: '1090759975298233',
+  apiFB: 'EAAevmXH5djMBOznytfnKfdFjxgKoF3S38EJtsI79EIJiLQSY81vmNbZCL3HBmpzTddotwkbcv4B50iupXGEcSj4A5iwEZB3jwB5CsNIu2WjF4DChJ7mgD2GQGOG2uuKDMCmXD8ZCHCqvTBPZAw0eQuFZC83WZBA5X6T4ImjHL62Qy3PzywTotscmZBBtbhJfBTylwZDZD'
 };
 
 /*
